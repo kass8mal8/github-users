@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 
-const [data, setData]=useStae({})
+const [data, setData]=useStae(null)
 
 const UseFetch=async(url)=>{
    try{
