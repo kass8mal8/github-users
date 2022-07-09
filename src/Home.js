@@ -36,7 +36,7 @@ const Home=()=>{
           <FontAwesomeIcon 
              icon={faSearch} 
              onClick={handleSearch} 
-              />
+             className="search-btn"/>
         
     
      <UserInfo data={data} />

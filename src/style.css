@@ -21,3 +21,14 @@ input:focus{
   color:gainsboro;
 
 }
+
+.search-btn{
+  color:whitesmoke;
+  background: dodgerblue;
+  position: absolute;
+  margin-left: -30px;
+  top:10px;
+  padding: 7px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
