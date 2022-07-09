@@ -1,4 +1,4 @@
-import React,{useState, useEffect } from 'react'
+import React,{useState, useEffect, useRef } from 'react'
 
 
 const Home=()=>{
@@ -21,12 +21,16 @@ const Home=()=>{
         getUser (username)
      },[username])
   
+  const nameRef=useRef()
+  const handleSearch =() =>{
+    setName(nameRef.current.value)
+  } 
   return(
     <div className="container">
-      <input type="text" placeholder="enter username to search" onChange={(e)=>setName(e.target.value)} />
-
-          <p>{data.name}</p>
-          <img src={data.avatar_url} />
+      <form onSubmit={handleSearch }>
+        <input type="text" placeholder="enter username to search" ref={nameRef} />
+        <button>search</button>
+     </form>
       
     </div>
   )
