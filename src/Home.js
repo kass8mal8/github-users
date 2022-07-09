@@ -33,7 +33,7 @@ const Home=()=>{
     <div className="container">
         <input type="text" placeholder="enter username to search" ref={nameRef} />
         <button onClick={handleSearch}>
-          <FontAwesomeIconicon={faSearch} />
+          <FontAwesomeIcon icon={faSearch} />
         </button>
     
      <UserInfo data={data} />
