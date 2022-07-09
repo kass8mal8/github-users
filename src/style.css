@@ -10,6 +10,7 @@ input{
   border-radius: 30px;
   padding-left: 15px;
   border: 1px solid gainsboro;
+  
 }
 
 input:focus{
@@ -18,5 +19,5 @@ input:focus{
 
 ::placeholder{
   color:gainsboro;
-  
+
 }
