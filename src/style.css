@@ -4,15 +4,16 @@
   background: white;
 }
 input{
+  outline: none;
   padding:8px;
   width: 60%;
   border-radius: 30px;
   padding-left: 15px;
-  border: 1px solid #ddd;
+  border: 1px solid gainsboro;
 }
 
 input:focus{
-  outline-color: gainsboro;
+  border: 1px solid dodgerblue;
 }
 
 ::placeholder{
