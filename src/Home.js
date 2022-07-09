@@ -1,4 +1,5 @@
 import React,{useState, useEffect, useRef } from 'react'
+import UserInfo from './UserInfo'
 
 
 const Home=()=>{
@@ -27,11 +28,10 @@ const Home=()=>{
   } 
   return(
     <div className="container">
-      <form onSubmit={handleSearch }>
         <input type="text" placeholder="enter username to search" ref={nameRef} />
-        <button>search</button>
-     </form>
-      
+        <button onClick={handleSearch}>search</button>
+    
+     <UserInfo data={data} />
     </div>
   )
 }
