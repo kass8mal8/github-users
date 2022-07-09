@@ -1,12 +1,16 @@
 import React from 'react'
 const UserInfo=({data} )=>{
   return(
-    <div>
+    <div className="user-container">
       <section>
         <img
-          src={data.avatar_url}/>
+          src={data.avatar_url}
+          width="100"/>
       </section>
-      <p> {data.name}</p>
+      <section>
+       <p> {data.name}</p>
+       <p>{data.location} </p>
+      </section>
     </div>
   )
 }
