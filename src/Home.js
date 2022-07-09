@@ -1,5 +1,8 @@
 import React,{useState, useEffect, useRef } from 'react'
 import UserInfo from './UserInfo'
+import {FontAwesomeIcon } from '@fortawesome/react-fontawesome '
+import {faSearch} from '@fortawesome/fontawesome-free-solid-svg-icons'
+
 
 
 const Home=()=>{
@@ -29,7 +32,9 @@ const Home=()=>{
   return(
     <div className="container">
         <input type="text" placeholder="enter username to search" ref={nameRef} />
-        <button onClick={handleSearch}>search</button>
+        <button onClick={handleSearch}>
+          <FontAwesomeIconicon={faSearch} />
+        </button>
     
      <UserInfo data={data} />
     </div>
