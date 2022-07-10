@@ -1,9 +1,9 @@
 import React from 'react'
 const UserInfo=({data} )=>{
   return(
-    <div className="user-container">
-     {data &&
-     <> <section>
+    <div>
+     {data ?
+     <div className="user-container"> <section>
         <img
           src={data.avatar_url}
           width="100"/>
@@ -12,7 +12,7 @@ const UserInfo=({data} )=>{
        {data.name &&<p>Name: {data.name}</p>} 
        <p>{data.location} </p>
        <p>{data.bio} </p>
-      </section></>} 
+      </section></div> : ""} 
     </div>
   )
 }

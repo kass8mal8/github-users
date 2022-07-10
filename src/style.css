@@ -38,5 +38,18 @@ button{
   border:1px solid royalblue;
   padding: 6px;
   border-radius: 3px;
-  float: right;
+  float: right ;
+}
+
+.user-container{
+   background: white;
+   border:2px solid whitesmoke;
+   padding: 3px;
+   margin:10px auto;
+   border-radius: 5px;
+}
+
+.user-container img{
+  border-radius: 50%;
+  object-fit: cover;
 }
