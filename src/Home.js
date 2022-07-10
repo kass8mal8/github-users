@@ -31,13 +31,14 @@ const Home=()=>{
   } 
   return(
     <div className="container">
-        <input type="text" placeholder="enter username to search" ref={nameRef} />
+      <header>
+        <input type="text" placeholder="search github username... " ref={nameRef} />
     
           <FontAwesomeIcon 
-             icon={faSearch} 
-             onClick={handleSearch} 
+             icon={faSearch}    
              className="search-btn"/>
-        
+             <button onClick ={handleSearch}>search</button>
+    </header>
     
      <UserInfo data={data} />
     </div>
