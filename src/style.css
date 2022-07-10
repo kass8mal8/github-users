@@ -32,7 +32,7 @@ input {
 }
 
 .search-btn {
-   color: whitesmoke;
+   color: royalblue;
    position: absolute;
    left: 30px;
    top: 17px;
@@ -48,6 +48,7 @@ button {
    padding: 6px;
    border-radius: 3px;
    float: right;
+   font-family: nunito-sans ;
 }
 
 .user-container {
