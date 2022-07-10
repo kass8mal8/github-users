@@ -1,55 +1,64 @@
-.container{
-  width:95%;
-  margin: auto 10px;
+@font-face{
+   font-family: nunito-sans;
+   src:url(NunitoSans-Regular.ttf );
 }
-header{
-  background: white;
-  padding:5px;
-  border:2px solid whitesmoke ;
-  border-radius: 5px;
+*{
+   font-family: nunito-sans ;
 }
-input{
-  outline: none;
-  padding:8px;
-  width: 60%;
-  padding-left: 35px;
-  border: none;
+.container {
+   width: 95%;
+   margin: auto 10px;
 }
 
-
-::placeholder{
-  color:gainsboro;
-
-}
-
-.search-btn{
-  color:whitesmoke;
-  position: absolute;
-  left: 30px;
-  top:17px;
-  padding: 7px;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-}
-
-button{
-  background:royalblue ;
-  color:white;
-  border:1px solid royalblue;
-  padding: 6px;
-  border-radius: 3px;
-  float: right ;
-}
-
-.user-container{
+header {
    background: white;
-   border:2px solid whitesmoke;
-   padding: 3px;
-   margin:10px auto;
+   padding: 5px;
+   border: 2px solid whitesmoke;
    border-radius: 5px;
 }
 
-.user-container img{
-  border-radius: 50%;
-  object-fit: cover;
+input {
+   outline: none;
+   padding: 8px;
+   width: 60%;
+   padding-left: 35px;
+   border: none;
+}
+
+
+::placeholder {
+   color: gainsboro;
+
+}
+
+.search-btn {
+   color: whitesmoke;
+   position: absolute;
+   left: 30px;
+   top: 17px;
+   padding: 7px;
+   border-top-right-radius: 20px;
+   border-bottom-right-radius: 20px;
+}
+
+button {
+   background: royalblue;
+   color: white;
+   border: 1px solid royalblue;
+   padding: 6px;
+   border-radius: 3px;
+   float: right;
+}
+
+.user-container {
+   background: white;
+   border: 2px solid whitesmoke;
+   padding: 3px;
+   margin: 10px auto;
+   border-radius: 5px;
+}
+
+.user-container img {
+   border-radius: 50%;
+   object-fit: cover;
 }
