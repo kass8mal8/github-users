@@ -9,9 +9,10 @@ const UserInfo=({data} )=>{
           width="100"/>
       </section>
       <section>
-       <p>{data.name}</p>
-       <p>{data.location} </p>
-       <p>{data.bio} </p>
+       <p>{data.name}<br/>
+       {data.location} 
+      {data.bio} </p>
+      <p>{data.created_}</p>
       </section></div> : ""} 
     </div>
   )
