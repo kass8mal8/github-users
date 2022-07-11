@@ -1,5 +1,5 @@
 *{
-   font-family:'poppins' ;
+   font-family:'Kumbh Sans' ;
 }
 .container {
    width: 95%;
@@ -44,7 +44,7 @@ button {
    padding: 6px;
    border-radius: 3px;
    float: right;
-   font-family: 'poppins' ;
+   font-family: 'poppi ' ;
    font-weight: 500;
 }
 
@@ -57,7 +57,7 @@ button {
    display: grid;
    grid-template-columns: 30% 70%;
    gap:10px;
-   
+
 }
 
 .user-container img {
