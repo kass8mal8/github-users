@@ -55,7 +55,7 @@ button {
    margin: 10px auto;
    border-radius: 5px;
    display: grid;
-   grid-template-columns: 30% 70%;
+   grid-template-columns: 20% 80%;
 
 }
 .intro{

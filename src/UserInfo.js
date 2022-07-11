@@ -1,10 +1,11 @@
 import React from 'react'
 
 const UserInfo = ({ data }) => {
-   const intro_styles=()=>{
-      color:'royalblue';
-      marginTop:'0px';
+   const intro_styles={
+      color:'royalblue', 
+      marginTop:'0px', 
       fontSize:'13px'
+
    }
    return (
    <div>
