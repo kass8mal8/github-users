@@ -59,11 +59,17 @@ button {
 
 }
 .intro{
-   display: flex;
-   justify-content: space-between;
 }
 
 .user-container img {
    border-radius: 50%;
    object-fit: cover;
+   
+}
+@media screen and (min-width:500px){
+   .intro{
+         display: flex;
+   justify-content: space-between;
+
+   }
 }
