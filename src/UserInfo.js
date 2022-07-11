@@ -1,11 +1,11 @@
 import React from 'react'
 
 const UserInfo = ({ data }) => {
+   
    const intro_styles={
       color:'royalblue', 
       marginTop:'0px', 
       fontSize:'13px'
-
    }
    return (
    <div>
@@ -19,9 +19,11 @@ const UserInfo = ({ data }) => {
          <section className="intro" >
            <aside>
               <h3> {data.name} </h3>
+              
+              {data.login && 
               <p style={intro_styles}>
-                @{data.login} 
-              </p>
+                @{data.login}
+              </p>} 
               
                {data.bio ? 
                 <p>  {data.bio}  </p> :

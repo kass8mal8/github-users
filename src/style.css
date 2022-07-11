@@ -58,18 +58,19 @@ button {
    grid-template-columns: 20% 80%;
 
 }
-.intro{
-}
+
+.intro {}
 
 .user-container img {
    border-radius: 50%;
    object-fit: cover;
-   
+
 }
-@media screen and (min-width:500px){
-   .intro{
-         display: flex;
-   justify-content: space-between;
+
+@media screen and (min-width:500px) {
+   .intro {
+      display: flex;
+      justify-content: space-between;
 
    }
 }
