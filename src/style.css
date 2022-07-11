@@ -59,6 +59,8 @@ button {
 
 }
 .intro{
+   display: flex;
+   justify-content: space-between;
 }
 
 .user-container img {
