@@ -74,3 +74,10 @@ button {
 
    }
 }
+@media screen and (mmax-width:425px){
+   .bio{
+      position: absolute;
+      left: 15px;
+      margin-top: 20px;
+   }
+}

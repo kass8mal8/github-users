@@ -26,8 +26,8 @@ const UserInfo = ({ data }) => {
               </p>} 
               
                {data.bio ? 
-                <p>  {data.bio}  </p> :
-                <p> This profile has no bio</p> 
+                <p className="bio">  {data.bio}  </p> :
+                <p className="bio"> This profile has no bio</p> 
                } 
             </aside>
             <aside>
