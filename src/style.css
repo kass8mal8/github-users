@@ -1,13 +1,14 @@
-*{
-   font-family:'Kumbh Sans' ;
+* {
+   font-family: 'Kumbh Sans';
 }
+
 .container {
    width: 95%;
    margin: auto 10px;
 }
 
 header {
-   background: white ;
+   background: white;
    padding: 5px;
    border: 2px solid whitesmoke;
    border-radius: 5px;
@@ -38,9 +39,9 @@ input {
 }
 
 button {
-   background: hsl(223,93%,58%);
+   background: hsl(223, 93%, 58%);
    color: white;
-   border: 1px solid hsl(223,93%,58%);
+   border: 1px solid hsl(223, 93%, 58%);
    padding: 5px;
    border-radius: 4px;
    float: right;
@@ -55,7 +56,11 @@ button {
    border-radius: 5px;
    display: grid;
    grid-template-columns: 30% 70%;
-   
+
+}
+.intro{
+   display: flex;
+   justify-content: space-between;
 }
 
 .user-container img {
