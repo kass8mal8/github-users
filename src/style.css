@@ -1,9 +1,6 @@
-@font-face{
-   font-family: nunito-sans;
-   src:url(NunitoSans-Regular.ttf );
-}
+
 body{
-   font-family: nunito-sans ;
+   font-family:' Nunito-Sans' ;
 }
 .container {
    width: 95%;
