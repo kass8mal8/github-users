@@ -10,8 +10,8 @@ const UserInfo = ({ data }) => {
              width="100"/>
          </section>
          <section className="intro" >
-           <h3> {data.name} </h3>
-           <p>  {data.location} </p>
+           <p> {data.name} <br/>
+             {data.location} </p>
            
             {data.bio == null ? 
                <p> This profile has no bio</p> 
