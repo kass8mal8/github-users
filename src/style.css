@@ -1,6 +1,6 @@
 
 body{
-   font-family:' Nunito-Sans' ;
+   font-family:' Nunito Sans ' ;
 }
 .container {
    width: 95%;
@@ -45,7 +45,7 @@ button {
    padding: 6px;
    border-radius: 3px;
    float: right;
-   font-family: nunito-sans ;
+   font-family: 'Nunito Sans' ;
    font-weight: bold;
 }
 
