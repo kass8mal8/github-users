@@ -4,7 +4,7 @@ const UserInfo = ({ data }) => {
    
    const intro_styles={
       color:'royalblue', 
-      marginTop:'0px', 
+      marginTop:'-10px', 
       fontSize:'13px'
    }
    return (
